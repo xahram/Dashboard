@@ -1,0 +1,13 @@
+.centerSectionBack {
+    /* z-index: 1; */
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 60%;
+}
+.centerSectionFront {
+    /* z-index: 100; */
+    height: 100%;
+    width: 95%;
+    margin: auto;
+    background-color:rgb(219, 219, 219);
+}

@@ -1,0 +1,11 @@
+.container {
+  height: 100vh;
+  display: flex;
+  /* width: 100%; */
+}
+/* .rightBar {
+  width: 30%;
+} */
+/* .centerSection {
+  width: 30%;
+} */
