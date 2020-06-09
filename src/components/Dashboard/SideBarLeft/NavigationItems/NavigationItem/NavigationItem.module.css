@@ -1,0 +1,22 @@
+.navigationItem a {
+  text-decoration: none;
+  color: cornsilk;
+  text-transform: capitalize;
+  padding-left: 1rem;
+}
+.navigationItem {
+  margin: 0;
+  margin-top: 8%;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+  height: 2.5rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 20%;
+  box-sizing: border-box;
+  background-color:  rgb(56, 45, 45);
+  opacity: 0.9;
+}
