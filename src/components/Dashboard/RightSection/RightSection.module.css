@@ -1,5 +1,6 @@
 .rightSection {
     height: 100%;
     width: 20%;
-    background-color: rgb(26, 21, 21);
+    padding-top: 1.5rem;
+    background-color: rgb(66, 65, 65);
 }
