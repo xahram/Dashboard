@@ -10,6 +10,8 @@
 .centerSectionFront section {
     height: 25%;
     box-sizing: border-box;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
 }
 .centerSectionFront section h3{
   padding: 0;
@@ -43,3 +45,6 @@
     margin-right: auto;
 
 }
+/* .centerSectionFront > input:focus{
+    border: 1px solid mistyrose;
+} */

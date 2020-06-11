@@ -1,0 +1,21 @@
+.Files {
+  /* display: grid;
+  column-gap: "0.8rem";
+  row-gap: 0; */
+  height: 100%;
+  /* text-align: center; */
+
+}
+.Files > div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    box-sizing: border-box;
+}
+.Files > div > span:nth-of-type(3){
+    padding-left: 8rem;
+    box-sizing: border-box;
+}

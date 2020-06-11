@@ -1,17 +1,15 @@
-import React from 'react';
-import './App.css';
-import Chart from './components/Chart';
-import Dashboard from './components/Dashboard/Dashboard';
+const express = require("express")
+const app = express()
+const path = require('path')
+const port = process.env.PORT || 9000
 
+path.join(__dirname, "../front/build")
 
-function App() {
-  return (
-    <div className="App">
-      <Dashboard />
-      {/* <Graph /> */}
-      {/* <Chart /> */}
-    </div>
-  );
-}
+app.use(express.static(path.join(__dirname, "../front/build")))
+app.get('/*', (req, res) => {
+    res.sendFile(path.join(__dirname, "../front/build/index.html"))
+})
 
-export default App;
+app.listen(port, () => {
+    console.log(`Listening at ${port}`)
+})
